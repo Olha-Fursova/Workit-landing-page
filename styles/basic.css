@@ -1,6 +1,5 @@
 body {
   width: 100%;
-  padding: 2.5rem 3.2rem;
   font-family: var(--main-font);
 
   display: flex;
@@ -25,4 +24,22 @@ body {
   clip: rect(0 0 0 0);
   overflow: hidden;
   pointer-events: none;
+}
+
+.btn {
+  padding: 1.2rem 3.2rem;
+  background-color: var(--green);
+  color: var(--purple-dark);
+  border: 2px solid var(--green);
+
+  font-size: 1.6rem;
+  line-height: 180%;
+  letter-spacing: 0;
+  font-weight: 600;
+}
+
+.btn:hover,
+.btn:focus {
+  background-color: var(--white);
+  color: var(--green);
 }

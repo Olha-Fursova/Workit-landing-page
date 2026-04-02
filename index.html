@@ -25,7 +25,7 @@
     <header class="header">
       <navigation class="nav">
         <svg class="logo-light"><use href="./images/logo-light.svg" /></svg>
-        <button class="btn-cta" type="button" name="sta-button">
+        <button class="btn-header" type="button" name="sta-button">
           Apply for access
         </button>
       </navigation>
@@ -35,18 +35,28 @@
       <!-- Hero section -->
 
       <section class="hero-section">
-        <h1 class="main-heading">Data tailored to your needs</h1>
-        <button class="btn btn-more" type="button" name="learn-more-button">
-          Learn more
-        </button>
-        <img class="hero-image" src="./images/image-hero.webp" />
+        <div class="hero-info-container">
+          <h1 class="main-heading">
+            Data <span class="heaidng-highlight">tailored</span> to your needs
+          </h1>
+          <button class="btn btn-more" type="button" name="learn-more-button">
+            Learn more
+          </button>
 
-        <svg class="bacgkround-pattern hero-1">
-          <use href="./images/bg-pattern-1.svg" />
+          <svg class="bacgkround-pattern hero-1">
+            <use href="./images/bg-pattern-1.svg" />
+          </svg>
+          <svg class="bacgkround-pattern hero-2">
+            <use href="./images/bg-pattern-2.svg" />
+          </svg>
+        </div>
+
+        <img class="hero-image" src="./images/image-hero.webp" />
+        
+        <svg class="hero-ornament">
+          <use href="./images/hero-ornamental.svg" />
         </svg>
-        <svg class="bacgkround-pattern hero-2">
-          <use href="./images/bg-pattern-2.svg" />
-        </svg>
+        <figure class="white-space-hero"></figure>
       </section>
 
       <!-- Features section -->
@@ -78,6 +88,10 @@
             </p>
           </li>
         </ol>
+
+        <svg class="hero-ornament">
+          <use href="./images/features-ornamental.svg" />
+        </svg>
       </section>
 
       <!-- CTA section -->
@@ -107,25 +121,27 @@
       </section>
     </main>
 
+    <!-- Footer -->
+
     <footer class="footer">
       <svg class="logo-dark"><use href="./images/logo-dark.svg" /></svg>
       <ul class="social-links-list">
         <li class="social-link-item">
-          <a class="social-links" target="_blank" rel="noopener noreferrer">
+          <a class="social-links" href="./index.html" target="_blank" rel="noopener noreferrer">
             <svg class="social-icon">
               <use href="./images/icon-facebook.svg" />
             </svg>
           </a>
         </li>
         <li class="social-link-item">
-          <a class="social-links" target="_blank" rel="noopener noreferrer">
+          <a class="social-links" href="./index.html" target="_blank" rel="noopener noreferrer">
             <svg class="social-icon">
               <use href="./images/icon-twitter.svg" />
             </svg>
           </a>
         </li>
         <li class="social-link-item">
-          <a class="social-links" target="_blank" rel="noopener noreferrer">
+          <a class="social-links" href="./index.html" target="_blank" rel="noopener noreferrer">
             <svg class="social-icon">
               <use href="./images/icon-instagram.svg" />
             </svg>

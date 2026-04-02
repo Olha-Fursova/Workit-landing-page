@@ -21,7 +21,8 @@ button,
 body,
 svg,
 img,
-ul {
+ul,
+figure {
   margin: 0;
   padding: 0;
 }
