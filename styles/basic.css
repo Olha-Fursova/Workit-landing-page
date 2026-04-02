@@ -1,0 +1,14 @@
+body {
+  width: 100%;
+  padding: 2.5rem 3.2rem;
+  font-family: var(--main-font);
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  gap: 3.2rem;
+
+  background-color: var(--white);
+}
