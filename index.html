@@ -23,12 +23,12 @@
   </head>
   <body>
     <header class="header">
-      <navigation class="nav">
+      <nav class="nav">
         <svg class="logo-light"><use href="./images/logo-light.svg" /></svg>
         <button class="btn-header" type="button" name="sta-button">
           Apply for access
         </button>
-      </navigation>
+      </nav>
     </header>
 
     <main class="main">
@@ -37,24 +37,28 @@
       <section class="hero-section">
         <div class="hero-info-container">
           <h1 class="main-heading">
-            Data <span class="heaidng-highlight">tailored</span> to your needs.
+            Data <span class="heading-highlight">tailored</span> to your needs.
           </h1>
           <button class="btn btn-more" type="button" name="learn-more-button">
             Learn more
           </button>
         </div>
 
-        <img class="hero-image" src="./images/image-hero.webp" />
+        <img
+          class="hero-image"
+          src="./images/image-hero.webp"
+          alt="Phone with small schematic layout"
+        />
 
         <svg class="hero-ornament">
           <use href="./images/hero-ornamental.svg" />
         </svg>
-        <figure class="white-space-hero"></figure>
+        <div class="white-space-hero" aria-hidden="true"></div>
 
-        <svg class="bacgkround-pattern hero-1">
+        <svg class="background-pattern hero-1">
           <use href="./images/bg-pattern-1.svg" />
         </svg>
-        <svg class="bacgkround-pattern hero-2">
+        <svg class="background-pattern hero-2">
           <use href="./images/bg-pattern-2.svg" />
         </svg>
       </section>
@@ -66,7 +70,7 @@
         <ol class="features-list">
           <li class="features-item">
             <div class="item-container">
-              <h3 class="feature-name">Actionable insights</h3>
+              <h2 class="feature-name">Actionable insights</h2>
               <p class="feature-desc">
                 Optimize your products, improve customer satisfaction and stay
                 ahead of the competition with our product data analytics.
@@ -75,7 +79,7 @@
           </li>
           <li class="features-item">
             <div class="item-container">
-              <h3 class="feature-name">Data-driven decisions</h3>
+              <h2 class="feature-name">Data-driven decisions</h2>
               <p class="feature-desc">
                 Make data-driven decisions with our product data analytics. Our
                 AI-generated reports help you unlock insights hidden in your
@@ -85,7 +89,7 @@
           </li>
           <li class="features-item">
             <div class="item-container">
-              <h3 class="feature-name">Always affordable</h3>
+              <h2 class="feature-name">Always affordable</h2>
               <p class="feature-desc">
                 Always affordable pricing that scales with your business. Get
                 top-quality product data analytics services without hidden costs
@@ -103,26 +107,32 @@
       <!-- CTA section -->
 
       <section class="cta-section">
-        <img class="founder-image" src="./images/image-founder.webp" />
-        <div class="cta-text-container">
-          <h2 class="cta-heading">Be the first to test</h2>
-          <p class="cta-text">
-            Hi, I'm Louis Graham, the founder of the company. Book a demo call
-            with me to become a beta tester for our app and kickstart your
-            company. Apply for access below and I’ll be in touch to schedule a
-            call.
-          </p>
-          <button
-            class="btn cta-btn"
-            type="button"
-            name="call-to-action-button"
-          >
-            Apply for access
-          </button>
+        <div class="cta-container">
+          <img
+            class="founder-image"
+            src="./images/image-founder.webp"
+            alt="Profile picture of the founder of the app"
+          />
+          <div class="cta-text-container">
+            <h2 class="cta-heading">Be the first to test</h2>
+            <p class="cta-text">
+              Hi, I'm Louis Graham, the founder of the company. Book a demo call
+              with me to become a beta tester for our app and kickstart your
+              company. Apply for access below and I’ll be in touch to schedule a
+              call.
+            </p>
+            <button
+              class="btn cta-btn"
+              type="button"
+              name="call-to-action-button"
+            >
+              Apply for access
+            </button>
 
-          <svg class="bacgkround-pattern cta-bg">
-            <use href="./images/bg-pattern-3.svg" />
-          </svg>
+            <svg class="background-pattern cta-bg">
+              <use href="./images/bg-pattern-3.svg" />
+            </svg>
+          </div>
         </div>
       </section>
     </main>
@@ -139,7 +149,8 @@
             target="_blank"
             rel="noopener noreferrer"
           >
-            <svg class="social-icon">
+            <span class="visually-hidden">facebook</span>
+            <svg class="social-icon" aria-hidden="true" focusable="false">
               <use href="./images/icon-facebook.svg" />
             </svg>
           </a>
@@ -151,7 +162,8 @@
             target="_blank"
             rel="noopener noreferrer"
           >
-            <svg class="social-icon">
+            <span class="visually-hidden">twitter</span>
+            <svg class="social-icon" aria-hidden="true" focusable="false">
               <use href="./images/icon-twitter.svg" />
             </svg>
           </a>
@@ -163,7 +175,8 @@
             target="_blank"
             rel="noopener noreferrer"
           >
-            <svg class="social-icon">
+            <span class="visually-hidden">instagram</span>
+            <svg class="social-icon" aria-hidden="true" focusable="false">
               <use href="./images/icon-instagram.svg" />
             </svg>
           </a>

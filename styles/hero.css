@@ -10,7 +10,7 @@
   color: var(--white);
 }
 
-.heaidng-highlight {
+.heading-highlight {
   position: relative;
 }
 
@@ -35,7 +35,7 @@
   background-color: var(--purple-light);
 }
 
-.bacgkround-pattern {
+.background-pattern {
   overflow: visible;
   position: absolute;
   display: none;
@@ -61,7 +61,7 @@
     height: 13.6rem;
   }
 
-  .bacgkround-pattern {
+  .background-pattern {
     display: block;
   }
 

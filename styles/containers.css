@@ -90,8 +90,13 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+}
 
-  position: relative;
+.cta-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .cta-text-container {
@@ -104,7 +109,7 @@
   gap: 3.2rem;
 
   position: relative;
-  margin-top: -4.8rem;
+  margin-block-start: -4.8rem;
 
   background-color: var(--purple-dark);
   color: var(--white);
@@ -170,7 +175,7 @@
     padding-left: 4.4rem;
     padding-right: 4.4rem;
 
-    align-items: flex-start;
+    
   }
 
   .cta-text-container {
@@ -180,7 +185,12 @@
     text-align: left;
     align-items: flex-start;
 
-    margin-top: -11rem;
+    margin-block-start: -11rem;
+  }
+
+  .cta-container {
+    width: 68rem;
+    align-items: flex-start;
   }
 }
 
@@ -228,7 +238,11 @@
     padding: 6.4rem;
     max-width: 73rem;
 
-    margin-top: -31rem;
+    margin-block-start: -31rem;
+  }
+
+  .cta-container {
+    width: 112rem;
   }
 
   /* Footer */

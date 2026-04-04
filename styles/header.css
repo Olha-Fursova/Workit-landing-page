@@ -22,7 +22,7 @@
 }
 
 .btn-header::after,
-.heaidng-highlight::after {
+.heading-highlight::after {
   position: absolute;
   bottom: 0;
   left: 0;
