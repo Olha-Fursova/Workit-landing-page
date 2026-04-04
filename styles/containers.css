@@ -46,11 +46,6 @@
   position: relative;
 }
 
-.bacgkround-pattern {
-  position: absolute;
-  display: none;
-}
-
 /* Features section */
 
 .features-section {
@@ -75,8 +70,14 @@
   align-items: center;
   text-align: center;
 
-  gap: 1.6rem;
+  gap: 2.4rem;
   counter-increment: item;
+}
+
+.item-container {
+  display: flex;
+  flex-direction: column;
+  gap: 1.6rem;
 }
 
 /* CTA section */
@@ -128,3 +129,53 @@
   gap: 2.8rem;
 }
 
+@media screen and (min-width: 48rem) {
+  .header {
+    padding-left: 4.4rem;
+    padding-right: 4.4rem;
+  }
+
+  .hero-info-container {
+    padding-left: 4.4rem;
+    padding-right: 4.4rem;
+  }
+
+  /* Features */
+
+  .features-list {
+    padding: 5.6rem 4.4rem 4.4rem 4.4rem;
+  }
+
+  .features-item {
+    flex-direction: row;
+    align-items: flex-start;
+    text-align: left;
+    gap: 5.6rem;
+    flex-shrink: 0;
+  }
+
+  .item-container {
+    gap: 2.8rem;
+  }
+
+  /* CTA */
+
+  .cta-section {
+    padding-left: 4.4rem;
+    padding-right: 4.4rem;
+
+    align-items: flex-start;
+  }
+
+  .cta-text-container {
+    padding: 4.8rem;
+    max-width: 50.4rem;
+    align-self: flex-end;
+    text-align: left;
+    align-items: flex-start;
+
+    margin-top: -11rem;
+  }
+
+  
+}

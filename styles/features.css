@@ -22,8 +22,6 @@
   line-height: 200%;
   letter-spacing: 0;
   font-weight: 400;
-
-  margin-bottom: 0.8rem;
 }
 
 .feature-name {
@@ -42,4 +40,15 @@
   font-weight: 300;
 
   color: var(--purple-dark);
+}
+
+@media screen and (min-width: 48rem) {
+  .features-item::before {
+    min-width: 4.8rem;
+    min-height: 4.8rem;
+  }
+
+  .features-ornamental {
+    height: 7.2rem;
+  }
 }

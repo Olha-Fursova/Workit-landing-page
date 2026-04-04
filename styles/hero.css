@@ -34,3 +34,44 @@
   width: 100%;
   background-color: var(--purple-light);
 }
+
+.bacgkround-pattern {
+  overflow: visible;
+  position: absolute;
+  display: none;
+}
+
+@media screen and (min-width: 48rem) {
+  .main-heading {
+    font-size: 6rem;
+    letter-spacing: 0;
+    width: 50rem;
+  }
+  
+  .hero-image {
+    height: 29.6rem;
+    width: 51.5rem;
+  }
+  
+  .hero-ornament {
+    height: 5.6rem;
+  }
+
+  .white-space-hero {
+    height: 13.6rem;
+  }
+
+  .bacgkround-pattern {
+    display: block;
+  }
+
+  .hero-1 {
+    left: -22.4rem;
+    top: -0.9rem;
+  }
+
+  .hero-2 {
+    right: -22rem;
+    top: 19.5rem;
+  }
+}

@@ -6,6 +6,7 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  overflow-x: hidden;
   
   color: var(--purple-dark);
   background-color: var(--white);
