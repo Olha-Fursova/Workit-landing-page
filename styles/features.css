@@ -51,4 +51,24 @@
   .features-ornamental {
     height: 7.2rem;
   }
+
+  .feature-name {
+    font-size: 2.8rem;
+  }
+}
+
+@media screen and (min-width: 90rem) {
+  .features-item::before {
+    width: 5.6rem;
+    height: 5.6rem;
+  }
+
+  .feature-name {
+    font-size: 3.2rem;
+  }
+
+  .feature-desc {
+    font-size: 1.8rem;
+    max-width: 35.2rem;
+  }
 }

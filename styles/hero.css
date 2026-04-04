@@ -75,3 +75,35 @@
     top: 19.5rem;
   }
 }
+
+@media screen and (min-width: 90rem) {
+  .main-heading {
+    font-size: 8rem;
+    width: 63.5rem;
+  }
+
+  .hero-image {
+    width: 76.7rem;
+    height: 44.1rem;
+  }
+
+  .hero-ornament {
+    height: 7.1rem;
+  }
+
+  .white-space-hero {
+    height: 16.1rem;
+  }
+
+  .hero-1 {
+    left: -10.1rem;
+    top: 4.7rem;
+  }
+
+  .hero-2 {
+    width: 14.2rem;
+    height: 14.3rem;
+    right: -1.5rem;
+    top: 25.1rem;
+  }
+}

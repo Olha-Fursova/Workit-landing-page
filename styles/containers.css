@@ -16,6 +16,7 @@
 /* Main content */
 
 .main {
+  width: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -130,10 +131,14 @@
 }
 
 @media screen and (min-width: 48rem) {
+  /* Header */
+
   .header {
     padding-left: 4.4rem;
     padding-right: 4.4rem;
   }
+
+  /* Hero */
 
   .hero-info-container {
     padding-left: 4.4rem;
@@ -144,6 +149,7 @@
 
   .features-list {
     padding: 5.6rem 4.4rem 4.4rem 4.4rem;
+    align-items: flex-start;
   }
 
   .features-item {
@@ -176,6 +182,58 @@
 
     margin-top: -11rem;
   }
+}
 
-  
+@media screen and (min-width: 90rem) {
+  /* Header */
+
+  .header {
+    padding: 5.6rem 8rem 0 8rem;
+    display: flex;
+    justify-content: center;
+  }
+
+  .nav {
+    max-width: 112rem;
+  }
+
+  /* Hero */
+
+  .hero-info-container {
+    padding: 5.6rem 8rem 29.6rem 8rem;
+  }
+
+  /* Features */
+
+  .features-list {
+    padding: 8.8rem 8rem 14.4rem 8rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;;
+  }
+
+  .features-item {
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+  }
+
+  /* CTA */
+
+  .cta-section {
+    padding-left: 16rem;
+    padding-right: 16rem;
+  }
+
+  .cta-text-container {
+    padding: 6.4rem;
+    max-width: 73rem;
+
+    margin-top: -31rem;
+  }
+
+  /* Footer */
+
+  .footer {
+    padding: 11.2rem 8rem;
+  }
 }

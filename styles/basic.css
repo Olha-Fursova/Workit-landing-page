@@ -44,3 +44,9 @@ body {
   background-color: var(--white);
   color: var(--green);
 }
+
+@media screen and (min-width: 48rem) {
+  .btn {
+    font-size: 1.8rem;
+  }
+}

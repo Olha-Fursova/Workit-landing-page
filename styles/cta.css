@@ -20,8 +20,33 @@
 }
 
 @media screen and (min-width: 48rem) {
+  .cta-heading  {
+    font-size: 4.8rem;
+  }
+
   .cta-bg {
     right: -6.5rem;
     bottom: -5rem;
   }
+}
+
+@media screen and (min-width: 90rem) {
+  .founder-image {
+    width: 47.7rem;
+    height: 47.7rem;
+  }
+
+  .cta-heading  {
+    font-size: 5.6rem;
+  }
+
+  .cta-text {
+    font-size: 1.8rem;
+    letter-spacing: 0.01em;
+  }
+
+  .cta-bg {
+    right: 2.8rem;
+    bottom: -0.4rem;
+  } 
 }
