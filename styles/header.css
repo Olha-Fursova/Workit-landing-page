@@ -1,0 +1,33 @@
+/* Header */
+
+.logo-light {
+  width: 9.5rem;
+  height: 2.5rem;
+}
+
+.btn-header {
+  color: var(--white);
+
+  font-size: 1.8rem;
+  line-height: 180%;
+  letter-spacing: 0;
+  font-weight: 500;
+
+  position: relative;
+}
+
+.btn-header:hover,
+.btn-header:focus {
+  color: var(--green);
+}
+
+.btn-header::after,
+.heaidng-highlight::after {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  content: "";
+  height: 3px;
+  width: 100%;
+  background-color: var(--green);
+}

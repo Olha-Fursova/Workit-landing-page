@@ -1,0 +1,18 @@
+/* Footer */
+
+.logo-dark {
+  width: 9.5rem;
+  height: 2.5rem;
+}
+
+.social-icon {
+  width: 2rem;
+  height: 2rem;
+
+  fill: var(--purple-middle);
+}
+
+.social-icon:hover,
+.social-icon:focus {
+  fill: var(--purple-dark);
+}
