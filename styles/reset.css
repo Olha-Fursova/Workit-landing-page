@@ -22,7 +22,8 @@ body,
 svg,
 img,
 ul,
-figure {
+figure,
+a {
   margin: 0;
   padding: 0;
 }
@@ -42,4 +43,9 @@ img {
   display: block;
   width: 100%;
   height: auto;
+}
+
+a {
+  cursor: pointer;
+  text-decoration: none;
 }
